@@ -1,0 +1,6 @@
+This will contain the scripts related to the kind of Pipeline we need to create.
+We'll have two types of Pipeline:
+
+1. Training Pipepline: This will have all the Code for Training Pipeline itself. From Training Pipeline, we'll trigger or call all the Components.
+
+2. Prediction Pipeline: When the Model is created, we want to Predict using new Data.

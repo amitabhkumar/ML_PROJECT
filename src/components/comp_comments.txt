@@ -1,0 +1,17 @@
+Compnents are all the Modules that we're probably going to create to use in the Project.
+
+a. Initially, we create a Process called as "Data Ingestion". => We'll be reading a dataset from a Database or different kinds of Databases, or any other file Location.
+   Data Ingestion is a part ofa Module, when we're robably develoing the entire ML Project.
+   This will have all the CODE, that is related to READING the data.
+   We'll also try to split the data into "TRAIN" & "TEST".
+
+b. Then, we may do "Data Transformation".
+
+c. Then, we may do "Data Validation".
+
+d. Then, we'll train the Model.
+   This will contain all the Code, related to Training a Model, the number of Trainig Models we want to use.
+   Confusion Matrix for Classification Problem. R-square or adjusted R-square value for Regression Problem.
+
+e. Then we may create "Model Pusher".
+   This will be a "PICKLE" file which we can push into the Cloud.
